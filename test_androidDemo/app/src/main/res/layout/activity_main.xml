@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--tools:context=".MainActivity">-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="我的第一个Android项目名称"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:layout_constraintLeft_toLeftOf="parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:layout_constraintRight_toRightOf="parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<TextView android:id="@+id/text"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="I am a TextView" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button android:id="@+id/button"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="I am iron man" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;第一个例子&ndash;&gt;-->
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="100dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#ADFF2F"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"/>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#DA70D6"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"/>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;第二个例子&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="one"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#98FB98"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="2"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="two"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#FFFF00"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="3"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="three"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#FF00FF"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1px"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#000000" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;例子四&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="按钮1" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="按钮2" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="按钮3" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;例子五&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="请输入要保存的电话号码"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="right">&ndash;&gt;-->
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="保存"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="清空"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;例子六&ndash;&gt;-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="200dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#FF7878"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="O(∩_∩)O哈哈~" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="200dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="#FF7428"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="(*^__^*) 嘻嘻……" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Button" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;梅花布局&ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/img1"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:src="@drawable/pic"/>-->
+
+    <!--&lt;!&ndash; 在中间图片的左边 &ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/img2"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_toLeftOf="@id/img1"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@drawable/pic"/>-->
+
+    <!--&lt;!&ndash; 在中间图片的右边 &ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/img3"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_toRightOf="@id/img1"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@drawable/pic"/>-->
+
+    <!--&lt;!&ndash; 在中间图片的上面&ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/img4"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_above="@id/img1"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:src="@drawable/pic"/>-->
+
+    <!--&lt;!&ndash; 在中间图片的下面 &ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/img5"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_below="@id/img1"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:src="@drawable/pic"/>-->
+<!--</RelativeLayout>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="10dp"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--android:paddingRight="10dp"-->
+    <!--android:paddingTop="10dp"-->
+    <!--tools:context=".MainActivity" >-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Button"/>-->
+    <!--<Button-->
+        <!--android:paddingLeft="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Button"-->
+        <!--android:layout_toRightOf="@id/btn1"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn2"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Button"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+    <!--<Button-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Button"-->
+        <!--android:layout_toRightOf="@id/btn2"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+
+<!--例子七-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#000000">-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/imgBack"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@drawable/pic" />-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/imgCancle"-->
+    <!--android:layout_width="28dp"-->
+    <!--android:layout_height="28dp"-->
+    <!--android:layout_alignRight="@id/imgBack"-->
+    <!--android:layout_alignTop="@id/imgBack"-->
+    <!--android:background="@drawable/pic"-->
+    <!--android:layout_marginTop="-15dp"-->
+    <!--android:layout_marginRight="-10dp" />-->
+    <!--</RelativeLayout>-->
+
+<!--例子八-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:background="#000000">-->
+
+<!--<TableLayout-->
+    <!--android:id="@+id/TableLayout2"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:collapseColumns="0,2" >-->
+
+    <!--<TableRow>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="one" />-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="two" />-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="three" />-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="four" />-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="five" />-->
+    <!--</TableRow>-->
+    <!---->
+<!--</TableLayout>-->
+
+    <!--<TableLayout-->
+        <!--android:id="@+id/TableLayout2"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:shrinkColumns="1" >-->
+
+        <!--<TableRow>-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="one" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="two" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="three" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="four" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="five" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="文本XX" />-->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+    <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:id="@+id/TableLayout1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:context=".MainActivity"-->
+        <!--android:stretchColumns="0,3"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#66FF66"-->
+        <!--&gt;-->
+
+        <!--<TableRow>-->
+            <!--<TextView />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="用户名:"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="150dp"/>-->
+            <!--<TextView />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow>-->
+            <!--<TextView />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="密  码:"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:minWidth="150dp"-->
+                <!--/>-->
+            <!--<TextView />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow>-->
+            <!--<TextView />-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="登陆"/>-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="退出"/>-->
+            <!--<TextView />-->
+        <!--</TableRow>-->
+
+    <!--</TableLayout>-->
+
+<!--</RelativeLayout>-->
+
+<!--FrameLayout布局-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:foreground="@drawable/timg"
+    android:foregroundGravity="right|bottom">
+
+    <com.example.test_androiddemo.MeZi
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#FF6143" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#7BFE00" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFFF00" />
+
+</FrameLayout>
